@@ -1,0 +1,6 @@
+test/
+src/
+.*
+release.sh
+generate.sh
+examples/
