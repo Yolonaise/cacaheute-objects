@@ -1,7 +1,8 @@
 #!/bin/bash
+echo "set -ex"
 set -ex
 
-echo "ERROR: Changes detected in generated code, please run './generate.sh' and check-in the changes."
+echo "npm run lint"
 npm run lint
 npm test
 
