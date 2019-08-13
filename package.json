@@ -4,6 +4,7 @@
   "description": "cacaheute objects library",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint --init",
     "build": "echo \"Nothing to build here\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
