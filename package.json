@@ -4,6 +4,7 @@
   "description": "cacaheute objects library",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,7 @@
   "bugs": {
     "url": "https://github.com/Yolonaise/cacaheute-objects/issues"
   },
-  "homepage": "https://github.com/Yolonaise/cacaheute-objects#readme"
+  "homepage": "https://github.com/Yolonaise/cacaheute-objects#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
