@@ -23,6 +23,8 @@
     "url": "https://github.com/Yolonaise/cacaheute-objects/issues"
   },
   "homepage": "https://github.com/Yolonaise/cacaheute-objects#readme",
-  "dependencies": {},
+  "dependencies": {
+    "protobufjs": "^6.8.8"
+  },
   "devDependencies": {}
 }

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package cacaheute.model;
+
+message CacaheuteGame {
+    string id = 1;
+    string name = 2;
+    repeated Person persons = 3;
+    Person admin = 4;
+}
+
+message Person {
+    string id = 1;
+    string name = 2;
+    string email = 3;
+    repeated string suggestions = 4;
+}
