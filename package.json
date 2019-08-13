@@ -24,5 +24,8 @@
   "homepage": "https://github.com/Yolonaise/cacaheute-objects#readme",
   "dependencies": {
     "ts-protoc-gen": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
   }
 }
