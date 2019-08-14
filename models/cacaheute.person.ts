@@ -1,5 +1,5 @@
 export type Person = {
-    name: string;
-    email: string;
-    suggests: string[];
+    name?: string;
+    email?: string;
+    suggests?: string[];
 }

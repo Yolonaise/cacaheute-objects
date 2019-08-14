@@ -1,8 +1,9 @@
 import { Person } from "./cacaheute.person"
 
 export type CacaheuteGame = {
-    name: string;
-    status: string;
-    persons: Person[];
-    admin: Person;
+    name?: string;
+    status?: string;
+    persons?: Person[];
+    admin?: Person;
+    price?: number;
 }
