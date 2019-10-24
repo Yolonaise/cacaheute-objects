@@ -1,10 +1,5 @@
-import { Person } from "./cacaheute.person"
-
-export type CacaheuteGame = {
-    rejoin_id?: string;
+export default class Game {
     name?: string;
-    status?: string;
-    persons?: Person[];
-    admin?: Person;
+    admin?: string;
     price?: number;
 }
