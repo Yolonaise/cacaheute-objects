@@ -1,4 +1,4 @@
-export default class Game {
+export default interface Game {
     name?: string;
     admin?: string;
     price?: number;
